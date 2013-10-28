@@ -14,29 +14,14 @@ body {
 	background: #000;
 }
 
-#banner-wrapper {
-	position: absolute;
-}
-
 #banner {
 	position: absolute;
-	top: -40px;
+	top: 210px;
 	left: 400px;
-	padding-top: 130px;
 }
 
-h1 {
-	font-family: "Nothing You Could Do", "cursive", Arial, Helvetica, sans-serif;
+.banner1 {
 	text-align: center;
-	outline-style: 1px;
-	font-size: 72px;
-	font-weight: 400;
-	color: #f99a7e;
-	border: 2px solid #000;
-}
-
-.shadow20 {
-  text-shadow: 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7;
 }
 
 #container {
@@ -206,6 +191,10 @@ p {
 	padding-bottom: 20px;
 	color: #888;
 	width: 900px;
+}
+
+#under {
+	margin-left: 400px;
 }
 
 footer {
