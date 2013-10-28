@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Test Website</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+
+<div>
+	<div id="banner-wrapper">
+	<div id="banner">
+		<img src="img/banner-planet.png" width="600" height="100" alt="Logo">
+	</div>
+</div>
+
+</head>
+<body>
+
+
+
+	<h1 class="shadow20">My Gallery</h1>
+
+	<div class="tfclear"></div>
+	</div>
+
+	<div id="container">
+		<div id="navmenu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<!-- <li><a href="#">Sign Up</a></li> -->
+			</ul>
+		</div>
+	</div>
+
+<!====================== Gallery Begins ======================>		
+
+<div class="container">
+	<header><h3>Welcome to My Gallery</h3></header>
+	<section id="content">
+		<div class="gallery">
+			<ul>
+				<li><a class="fancybox" rel="group" href="img/lg/image_01.jpg" title="Istanbul"><img src="img/tn/image_01tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+				<li><a class="fancybox" rel="group" href="img/lg/image_02.jpg" title="Istanbul"><img src="img/tn/image_02tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+				<li><a class="fancybox" rel="group" href="img/lg/image_03.jpg" title="Istanbul"><img src="img/tn/image_03tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+				<li><a class="fancybox" rel="group" href="img/lg/image_04.jpg" title="Istanbul"><img src="img/tn/image_04tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+			</ul>
+			<ul>
+				<li><a class="fancybox" rel="group" href="img/lg/image_05.jpg" title="Istanbul"><img src="img/tn/image_05tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+				<li><a class="fancybox" rel="group" href="img/lg/image_06.jpg" title="Istanbul"><img src="img/tn/image_06tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+				<li><a class="fancybox" rel="group" href="img/lg/image_07.jpg" title="Istanbul"><img src="img/tn/image_07tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+				<li><a class="fancybox" rel="group" href="img/lg/image_08.jpg" title="Istanbul"><img src="img/tn/image_08tn.jpg" width="100 height="100" alt="Istanbul"></a></li>
+			</ul>
+		</div>
+	</section>
+</div>
+
+<!====================== Gallery Ends ======================>	
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=218313088330288";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="bottomdiv"><footer><p>All Rights Reserved</p></footer></div>
+
+</body>
+</html>

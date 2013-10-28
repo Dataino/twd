@@ -1,20 +1,45 @@
+html, body, div, h1, h2, h3, p, ul, li, img {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; 
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color:#888;
+	/*background-position: fixed;*/
+	background: #000;
+}
+
+#banner-wrapper {
+	position: absolute;
+}
+
+#banner {
+	position: absolute;
+	top: -40px;
+	left: 400px;
+	padding-top: 130px;
 }
 
 h1 {
-	font-family: "GochiHand" Arial, Helvetica, sans-serif;
+	font-family: "Nothing You Could Do", "cursive", Arial, Helvetica, sans-serif;
 	text-align: center;
+	outline-style: 1px;
 	font-size: 72px;
+	font-weight: 400;
+	color: #f99a7e;
 	border: 2px solid #000;
+}
 
-	background-color: #296377;
+.shadow20 {
+  text-shadow: 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7, 0 0 1px #B6E0F7;
 }
 
 #container {
-	/*border: 1px solid red;*/
 	width: 570px;
 	text-align: center;
 	margin-left: 416.5px;
@@ -23,10 +48,9 @@ h1 {
 #navmenu {
 	width: 570px;
 	height: 31px;
-	padding: 0px;
+	padding-top: 90px;
 	margin-left: 416.5px;
 	margin: 0px auto;
-	/*border: 2px solid #000;*/
 }
 
 #divlinks {
@@ -38,7 +62,7 @@ h1 {
 	color: #fff;
 	float: left;
 	border:1px solid #000;
-	background-color:#333;
+	background-color:#000;
 	width: 100%;
 }
 
@@ -53,25 +77,23 @@ h1 {
 	width: 130px;
 	float: left;
 	margin: 5px;
-	border: 1px solid #333;
 }
 
 #navmenu ul li a {
 	font-family: verdana, arial;
 	font-weight: bold;
-	color: #000;
+	text-shadow: 1px 1px 2px #000;
 	text-decoration: none;
 	display: block;
 	width: 130px;
-	height: 40ppx;
+	height: 40px;
 	font-size: 20px;
-	background-color: orange;
 }
 
 #navmenu a:hover {
 	background-position: 0px -40px;
 	font-weight: bold;
-	color: #4285F4;
+	color: #fff200;
 }
 
 /*CSS styles for standard search box*/
@@ -120,7 +142,94 @@ h1 {
 		clear:both;
 	}
 
+/*====================== rules for gallery ======================*/
 
+.container {
+	width: 900px;
+	margin: 0px auto 0;
+	padding-top: 50px;
+}
+
+header {
+	background: #42517f;
+	border-bottom: 1px solid #000;
+}
+
+header h3 {
+	color: #FFA500;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 32px;
+	word-spacing: 1px;
+	text-shadow: 1px 2px 4px #000;
+}
+
+#content {
+	background: #848c9c;
+	background: linear-gradient (to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+	background: -webkit-linear-gradient (to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.gallery {
+	width: 528px;
+	margin: auto;
+}
+
+.gallery ul {
+	list-style: none;
+}
+
+.gallery ul li {
+	float: left;
+	margin: 10px;
+}
+
+.gallery img {
+	display: block;
+	padding: 5px;
+	background: #42517f;
+	border: 1px solid #99adeb;
+	box-shadow: 4px 4px 10px #000;
+}
+
+.gallery img:hover {
+	border: 1px solid #fff;
+}
+
+p {
+	margin-left: 270px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #888;
+	width: 900px;
+}
+
+footer {
+
+	background: #222;
+
+}
+
+#bottomdiv {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: #ccc;
+	background: #333;
+}
+
+footer p {
+	color: #888;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
 
 
 
