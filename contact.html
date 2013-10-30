@@ -21,6 +21,7 @@
 </div>
 
 </head>
+
 <body>
 	
 <!-- HTML for SEARCH BAR -->
@@ -43,11 +44,29 @@
 		</div>
 	</div>
 
-	<div id="under">
+<div id="form-wrap">
+	<form>
+		<fieldset>
+		<h4>Contact Me</h4>
+			<label class="labelone" for="name">Name: </label>
+			<input name="name"/>
+			<label for="email">Email: </label>
+			<input name="email"/>
+			<label for="comments">Comments: </label>
+			<textarea name="comments"></textarea>
+		</fieldset>
+		<fieldset>
+			<input class="btn" type="submit" value="Send Email"/>
+			<input class="btn" type="reset" value="Reset Form"/>
+		</fieldset>
+	</form>
+</div>	
+
+	<!-- <div id="under">
 	<div id="constrution">
 		<img src="img/blog-under-construction.png" width="600" height="500" alt="Logo">
 	</div>
-</div>
+</div> -->
 
 	<div id="bottomdiv"><footer><p>&copy; Copyright 2013 All Rights Reserved</p></footer></div>	
 
