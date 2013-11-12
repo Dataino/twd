@@ -44,7 +44,7 @@ if (isset) ($_POST['email'])){
 		$error_message .= 'The Comments you entered do not appear to be valid.<br/>';
 		}
 
-		if(strlen(error_message) < 0) {
+		if(strlen(error_message) > 0) {
 			died($error_message) ;
 		}
 
